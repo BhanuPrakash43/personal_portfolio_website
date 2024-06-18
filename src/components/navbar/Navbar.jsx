@@ -16,7 +16,7 @@ const Navbar = () => {
         </span>
       </div>
       <div className="flex-1 flex justify-center">
-        <ul className="hidden md:flex items-center gap-6 lg:gap-10">
+        <ul className="hidden mdl:flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
               className="text-md font-normal text-gray-300 tracking-wide cursor-pointer hover:text-designColor duration-300"
@@ -37,14 +37,14 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="absolute right-4 flex items-center gap-4">
-        <button className="hidden md:flex bg-gray-900 text-white border-2 border-red-600 hover:text-green-600 hover:border-green-600 duration-500 justify-center items-center gap-4 px-5 py-2 rounded-full text-lg cursor-pointer">
+        <button className="hidden mdl:flex bg-gray-900 text-white border-2 border-red-600 hover:text-green-600 hover:border-green-600 duration-500 justify-center items-center gap-4 px-5 py-2 rounded-full text-lg cursor-pointer">
           <a href="https://github.com/BhanuPrakash43" target="_blank">
             Github
           </a>
         </button>
         <span
           onClick={() => setShowMenu(!showMenu)}
-          className="text-xl md:hidden bg-black w-10 h-10 flex items-center justify-center rounded-full text-designColor cursor-pointer transition-transform duration-500"
+          className="text-xl mdl:hidden bg-black w-10 h-10 flex items-center justify-center rounded-full text-designColor cursor-pointer transition-transform duration-500"
         >
           <FiMenu />
         </span>
