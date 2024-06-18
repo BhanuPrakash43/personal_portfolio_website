@@ -1,3 +1,4 @@
+import About from "./components/about/About";
 import TopBar from "./components/academics/TopBar";
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <div className="max-w-screen-xl mx-auto mt-6">
         <Banner />
+        <About />
         <Skills />
         <Projects />
         <TopBar />

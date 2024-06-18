@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { SiLeetcode, SiHackerrank } from "react-icons/si";
 import { contactImg } from "../../assets/index";
 
@@ -18,18 +13,18 @@ const ContactLeft = () => {
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Bhanu Prakash</h3>
-        <p className="text-lg font-normal text-gray-400">
-          Aspiring Software Developer
-        </p>
-        {/* <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
-        </p> */}
+
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 7726905698</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">bhanu742630@gmail.com</span>
+        </p>
+        <p className="text-base text-gray-400 flex items-center gap-2">
+          Address:{" "}
+          <span className="text-lightText">
+            Lari, Kurtha, Arwal, Bihar ( 804421 )
+          </span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
