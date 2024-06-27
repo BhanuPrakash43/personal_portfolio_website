@@ -22,7 +22,7 @@ function Training() {
             title="Fundamentals of Core Java and DSA"
             subTitle="Programming Pathshala | Ghaziabad, UP"
             result="June 2023 - July 2023"
-            des="In an 8-week training period, Java fundamentals and advanced topics like Binary Search and Recursion 
+            des="In an 7-week training period, Java fundamentals and advanced topics like Binary Search and Recursion 
                 were mastered. A Sudoku Solver GUI project was developed in Java, employing arrays, recursion, and 
                 backtracking techniques."
           />

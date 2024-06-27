@@ -14,7 +14,7 @@ const Education = () => {
           <Card
             title="BTech in Computer Science and Engineering"
             subTitle="Lovely Professional University, Phagwara, Punjab ( Since 2021 )"
-            result="CGPA: 7.59/10"
+            result="CGPA: 7.64/10"
             des="The rigorous training at Lovely Professional University equips students with the skills and knowledge 
                 to thrive in diverse sectors of the economy, cultural fields, and advanced technology."
           />
