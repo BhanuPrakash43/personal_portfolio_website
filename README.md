@@ -3,15 +3,15 @@
 
 ## Installation
 
-1. Clone the repository to your local machine:
+#1. Clone the repository to your local machine:
 
     git clone https://github.com/BhanuPrakash43/personal_portfolio_website
 
-2. Navigate to the project directory:
+#2. Navigate to the project directory:
 
     cd personal_portfolio_website
 
-3. Install dependencies using npm or yarn:
+#3. Install dependencies using npm or yarn:
 
     npm install
     or
@@ -19,7 +19,7 @@
 
 ## Usage
 
-1. Start the development server:
+#1. Start the development server:
 
     npm run dev
     or
