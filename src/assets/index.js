@@ -6,6 +6,6 @@ import colorcatchingImg from "./images/colorcatching.png"
 import inventoryImg from "./images/inventory.png"
 import sudokuImg from "./images/sudoku.png"
 import contactImg from "./images/contactImg.png";
-import CV from "./Bhanu_Prakash_Specialized_CV.pdf"
+import CV from "./bhanu_specialized_cv.pdf"
 
 export { bannerImg, blogImg, realestateImg, todoImg, colorcatchingImg, inventoryImg, sudokuImg, contactImg, CV };
