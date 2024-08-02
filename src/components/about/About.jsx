@@ -9,7 +9,7 @@ function About() {
   };
 
   return (
-    <section id="about" className="w-full py-20 border-b-[1px] border-b-black">
+    <section id="about" className="w-full py-14 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
         <Title title={"About me"} />
       </div>

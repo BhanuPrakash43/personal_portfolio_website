@@ -13,13 +13,11 @@ const Contact = () => {
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
 
-  // ========== Email Validation start here ==============
   const emailValidation = () => {
     return String(email)
       .toLowerCase()
       .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
-  // ========== Email Validation end here ================
 
   const handleSend = (e) => {
     e.preventDefault();
@@ -36,7 +34,6 @@ const Contact = () => {
     } else if (message === "") {
       setErrMsg("Message is required!");
     } else {
-      // Send email using emailjs-com
       emailjs
         .sendForm(
           import.meta.env.VITE_SERVICE_ID,
@@ -68,7 +65,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full py-20 border-b-[1px] border-b-black"
+      className="w-full py-14 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
         <Title title="Contact With Me" />

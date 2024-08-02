@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ title, subTitle, result, des }) => {
+const CertificateCard = ({ title, link, subTitle, date, des }) => {
   return (
     <div className="w-full h-fit group flex">
       <div className="w-10 h-[6px] bgOpacity mt-16 relative">
@@ -14,13 +14,20 @@ const Card = ({ title, subTitle, result, des }) => {
             <h3 className="text-xl md:text-2xl font-semibold group-hover:text-white duration-300">
               {title}
             </h3>
-            <p className="text-sm mt-2 text-gray-400 group-hover:text-white duration-300">
-              {subTitle}
-            </p>
+            <div className="flex items-center justify-between gap-10">
+              <p className="text-sm mt-2 text-gray-400 group-hover:text-white duration-300">
+                {subTitle}
+              </p>
+              <span className="text-sm text-gray-200 font-medium border-b border-gray-400 hover:text-blue-500 hover:border-blue-500 duration-500">
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  Certificate link
+                </a>
+              </span>
+            </div>
           </div>
           <div>
             <p className="px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium">
-              {result}
+              {date}
             </p>
           </div>
         </div>
@@ -34,4 +41,4 @@ const Card = ({ title, subTitle, result, des }) => {
   );
 };
 
-export default Card;
+export default CertificateCard;

@@ -32,7 +32,7 @@ const ContactLeft = () => {
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a
-              href="https://www.linkedin.com/in/bhanu-prakash-bp11/"
+              href="https://www.linkedin.com/in/bhanuprakash001/"
               target="_blank"
             >
               <FaLinkedinIn />
