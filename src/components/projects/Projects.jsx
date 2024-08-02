@@ -20,7 +20,6 @@ const Projects = () => {
       src: portfolioImg,
       githubLink:
         "https://github.com/BhanuPrakash43/personal_portfolio_website",
-      liveLink: "https://bhanu-portfolio-website.netlify.app/",
     },
     {
       title: "Blog Website",
