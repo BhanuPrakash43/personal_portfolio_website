@@ -7,25 +7,20 @@
 
     git clone https://github.com/BhanuPrakash43/personal_portfolio_website
 
-#2. Navigate to the project directory:
-
-    cd personal_portfolio_website
-
-#3. Install dependencies using npm or yarn:
+#2. Install dependencies using npm or yarn:
 
     npm install
     or
     yarn install
 
-## Usage
 
-#1. Start the development server:
+#3. Start the development server:
 
     npm run dev
     or
     yarn dev
 
-2. Open your web browser and visit http://localhost:5173 to view the application.
+4. Open your web browser and visit http://localhost:5173 to view the application.
 
 ## Build for Production
 
