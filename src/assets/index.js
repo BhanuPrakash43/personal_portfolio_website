@@ -8,6 +8,7 @@ import sudokuImg from "./images/sudoku.png";
 import contactImg from "./images/contactImg.png";
 import portfolioImg from "./images/portfolio.png";
 import foodCart from "./images/foodCart.png"
+import androidBlog from "./images/androidBlog.png"
 import CV from "./bhanu_resume.pdf";
 
 export {
@@ -21,5 +22,6 @@ export {
   contactImg,
   portfolioImg,
   foodCart,
+  androidBlog,
   CV,
 };
