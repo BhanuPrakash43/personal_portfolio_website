@@ -31,7 +31,7 @@ const Education = () => {
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
       <div>
-        <div className="mt-6 lgl:mt-20 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-10 lgl:mt-12 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           {educations.map((education, index) => (
             <Card
               key={index}
